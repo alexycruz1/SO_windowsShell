@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
 			pid = fork();
 			cout << "@pid(56) " << pid << endl;
 			if (pid == 0) {
-				errorNo = execlp(comando2, comando2, opcion2, buffer, NULL);
+				errorNo = execlp(comando2, comando2, buffer, NULL);
 			}
 			cout << "4" << endl;
 
